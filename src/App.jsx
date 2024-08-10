@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 export default function App() {
   useEffect(() => {
     AOS.init({
+      disable: "phone",
       duration: "500",
       once: true,
       easing: "ease-in-out",
