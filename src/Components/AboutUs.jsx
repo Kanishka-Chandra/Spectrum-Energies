@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <section
       id="about"
-      className="flex min-h-screen w-full items-center justify-center py-16 max-md:scroll-mt-16"
+      className="flex w-full items-center justify-center py-16 max-md:scroll-mt-16"
     >
       <div className="grid h-full w-full grid-cols-1 place-items-center gap-y-10 md:grid-cols-2">
         <div className="p-4">
