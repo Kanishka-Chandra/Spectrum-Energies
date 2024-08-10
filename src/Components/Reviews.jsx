@@ -24,7 +24,10 @@ const Reviews = () => {
       id="reviews"
       className="flex w-full flex-col items-center justify-center p-16 max-md:scroll-mt-16"
     >
-      <h2 className="cursor-default text-center text-5xl font-bold">
+      <h2
+        data-aos="fade-down"
+        className="cursor-default text-center text-5xl font-bold"
+      >
         What we've done for our clients
       </h2>
 

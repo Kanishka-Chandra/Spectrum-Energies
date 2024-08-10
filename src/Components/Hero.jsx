@@ -17,7 +17,10 @@ const Hero = () => {
         />
       </div>
       <div className="relative z-20 flex h-full items-center justify-center">
-        <h1 className="max-w-2xl cursor-default select-none p-4 text-center text-5xl font-medium text-white md:text-6xl md:font-semibold">
+        <h1
+          data-aos="fade-up"
+          className="max-w-2xl cursor-default select-none p-4 text-center text-5xl font-medium text-white md:text-6xl md:font-semibold"
+        >
           Empowering with future energy today
         </h1>
       </div>

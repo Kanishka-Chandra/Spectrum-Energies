@@ -33,7 +33,10 @@ const Services = () => {
       id="services"
       className="flex w-full flex-col items-center justify-center p-16 max-md:scroll-mt-16"
     >
-      <h2 className="cursor-default text-center text-5xl font-bold">
+      <h2
+        data-aos="fade-down"
+        className="cursor-default text-center text-5xl font-bold"
+      >
         A few of the things we offer
       </h2>
       <div className="mt-20 grid w-full grid-cols-1 gap-x-10 gap-y-16 md:grid-cols-2 lg:grid-cols-4">
@@ -55,7 +58,7 @@ export default Services;
 
 const OfferingCards = ({ title, text, buttonText, handleClick }) => {
   return (
-    <div className="flex flex-col gap-7">
+    <div data-aos="fade-up" className="flex flex-col gap-7">
       <h3 className="text-xl font-semibold">{title}</h3>
       <p className="text-pretty text-base">{text}</p>
       <button

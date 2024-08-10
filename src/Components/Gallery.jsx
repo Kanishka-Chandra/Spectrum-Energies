@@ -4,10 +4,12 @@ const Images = [
   {
     src: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c29sYXIlMjBwYW5uZWx8ZW58MHx8MHx8fDA%3D",
     caption: "Solar Solutions",
+    AOS: "fade-right",
   },
   {
     src: "https://images.unsplash.com/photo-1495021125225-d472d864992a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdpbmQlMjBtaWxsfGVufDB8fDB8fHww",
     caption: "Wind Solutions",
+    AOS: "fade-left",
   },
 ];
 
@@ -17,12 +19,20 @@ const Gallery = () => {
       id="gallery"
       className="flex w-full flex-col justify-center bg-green-500 py-16 max-md:scroll-mt-16"
     >
-      <h2 className="cursor-default text-center text-5xl font-bold text-white">
+      <h2
+        data-aos="fade-down"
+        className="cursor-default text-center text-5xl font-bold text-white"
+      >
         We bring together
       </h2>
       <div className="grid h-full w-full grid-cols-1 place-items-center gap-12 p-12 max-md:mt-5 md:grid-cols-2 md:gap-28">
         {Images.map((image, index) => (
-          <Image src={image.src} caption={image.caption} key={index} />
+          <Image
+            src={image.src}
+            caption={image.caption}
+            key={index}
+            dataAOS={image.AOS}
+          />
         ))}
       </div>
     </section>
@@ -31,9 +41,9 @@ const Gallery = () => {
 
 export default Gallery;
 
-const Image = ({ src, caption }) => {
+const Image = ({ src, caption, dataAOS }) => {
   return (
-    <div className="relative aspect-square w-full md:w-96">
+    <div data-aos={dataAOS} className="relative aspect-square w-full md:w-96">
       <img
         className="h-full w-full rounded object-cover"
         src={src}

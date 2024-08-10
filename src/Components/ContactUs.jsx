@@ -17,10 +17,16 @@ const ContactUs = () => {
         />
       </div>
       <div className="grid grid-cols-1 place-items-center gap-8 bg-green-500 p-8 text-white md:grid-cols-2 md:flex-row md:p-16">
-        <h2 className="w-full cursor-default select-none self-center text-5xl font-bold md:text-7xl">
+        <h2
+          data-aos="fade-right"
+          className="w-full cursor-default select-none self-center text-5xl font-bold md:text-7xl"
+        >
           Book a consultation
         </h2>
-        <div className="grid w-full cursor-default grid-cols-1 place-content-center gap-4 text-base font-medium md:grid-cols-2 md:text-lg">
+        <div
+          data-aos="fade-left"
+          className="grid w-full cursor-default grid-cols-1 place-content-center gap-4 text-base font-medium md:grid-cols-2 md:text-lg"
+        >
           <p className="">
             123 Anywhere St.
             <br />
