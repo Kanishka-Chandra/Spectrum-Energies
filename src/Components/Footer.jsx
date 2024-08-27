@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex w-full flex-col-reverse items-start justify-between gap-y-5 bg-green-600 px-8 py-4 md:flex-row md:items-center">
+    <footer className="flex w-full flex-col-reverse items-start justify-between gap-y-5 bg-gradient-to-r from-sky-700 to-green-600 px-8 py-4 md:flex-row md:items-center">
       <p className="cursor-default select-none text-left text-white md:text-center">
         Copyright © 2024 Spectrum Energies
       </p>
-      <div className="flex items-center justify-start space-x-4 md:justify-center">
+      {/* <div className="flex items-center justify-start space-x-4 md:justify-center">
         <a
           href="https://facebook.com"
           target="_blank"
@@ -79,7 +79,7 @@ const Footer = () => {
             />
           </svg>
         </a>
-      </div>
+      </div> */}
     </footer>
   );
 };

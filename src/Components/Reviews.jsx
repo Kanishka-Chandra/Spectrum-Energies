@@ -3,18 +3,18 @@ import React from "react";
 const Testimonals = [
   {
     message:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eaque itaque corporis, hic reiciendis cupiditate. Praesentium, accusamus distinctio, laudantium unde enim id dicta nostrum aut itaque quibusdam repellendus, quam officiis eum nisi corrupti error officia iste blanditiis modi omnis velit in? Nulla dolor fugit eos incidunt praesentium natus tempora quisquam!",
+      "Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.",
     name: "Hannah, 47",
   },
   {
     message:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eaque itaque corporis, hic reiciendis cupiditate. Praesentium, accusamus distinctio, laudantium unde enim id dicta nostrum aut itaque quibusdam repellendus, quam officiis eum nisi corrupti error officia iste blanditiis modi omnis velit in? Nulla dolor fugit eos incidunt praesentium natus tempora quisquam!",
-    name: "Hannah, 47",
+      "Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.",
+    name: "Trey, 22",
   },
   {
     message:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eaque itaque corporis, hic reiciendis cupiditate. Praesentium, accusamus distinctio, laudantium unde enim id dicta nostrum aut itaque quibusdam repellendus, quam officiis eum nisi corrupti error officia iste blanditiis modi omnis velit in? Nulla dolor fugit eos incidunt praesentium natus tempora quisquam!",
-    name: "Hannah, 47",
+      "Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.",
+    name: "Morgan, 33",
   },
 ];
 
@@ -22,11 +22,11 @@ const Reviews = () => {
   return (
     <section
       id="reviews"
-      className="flex w-full flex-col items-center justify-center p-16 max-md:scroll-mt-16"
+      className="flex w-full flex-col items-center justify-center bg-gradient-to-b from-sky-600 to-green-500 p-16 text-white max-md:scroll-mt-16"
     >
       <h2
         data-aos="fade-down"
-        className="cursor-default text-center text-5xl font-bold"
+        className="cursor-default text-left text-4xl font-bold md:text-center md:text-5xl"
       >
         What we've done for our clients
       </h2>
@@ -49,7 +49,7 @@ export default Reviews;
 const TestimonalCards = ({ message, name }) => {
   return (
     <div className="flex flex-col gap-5">
-      <div className="size-32 text-green-500">
+      <div className="size-24 text-white">
         <QuoteMark />
       </div>
       <p className="text-pretty text-base">{message}</p>

@@ -2,13 +2,13 @@ import React from "react";
 
 const Images = [
   {
-    src: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c29sYXIlMjBwYW5uZWx8ZW58MHx8MHx8fDA%3D",
-    caption: "Solar Solutions",
+    src: "/gallery_1.webp",
+    caption: "Wind Solutions",
     AOS: "fade-right",
   },
   {
-    src: "https://images.unsplash.com/photo-1495021125225-d472d864992a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdpbmQlMjBtaWxsfGVufDB8fDB8fHww",
-    caption: "Wind Solutions",
+    src: "/gallery_2.webp",
+    caption: "Solar Solutions",
     AOS: "fade-left",
   },
 ];
@@ -17,11 +17,11 @@ const Gallery = () => {
   return (
     <section
       id="gallery"
-      className="flex w-full flex-col justify-center bg-green-500 py-16 max-md:scroll-mt-16"
+      className="flex w-full flex-col justify-center bg-green-500 bg-gradient-to-l from-sky-600 to-green-500 py-16 max-md:scroll-mt-16"
     >
       <h2
         data-aos="fade-down"
-        className="cursor-default text-center text-5xl font-bold text-white"
+        className="cursor-default text-center text-4xl font-bold text-white md:text-5xl"
       >
         We bring together
       </h2>
