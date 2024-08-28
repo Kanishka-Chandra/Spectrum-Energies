@@ -6,7 +6,7 @@ const Footer = () => {
       <p className="cursor-default select-none text-left text-white md:text-center">
         Copyright © 2024 Spectrum Energies
       </p>
-      {/* <div className="flex items-center justify-start space-x-4 md:justify-center">
+      <div className="flex items-center justify-start space-x-4 md:justify-center">
         <a
           href="https://facebook.com"
           target="_blank"
@@ -79,7 +79,7 @@ const Footer = () => {
             />
           </svg>
         </a>
-      </div> */}
+      </div>
     </footer>
   );
 };

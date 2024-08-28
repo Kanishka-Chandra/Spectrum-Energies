@@ -17,7 +17,7 @@ const Gallery = () => {
   return (
     <section
       id="gallery"
-      className="flex w-full flex-col justify-center bg-green-500 bg-gradient-to-l from-sky-600 to-green-500 py-16 max-md:scroll-mt-16"
+      className="flex w-full flex-col justify-center bg-green-500 bg-gradient-to-t from-sky-600 to-green-500 py-16 max-md:scroll-mt-16"
     >
       <h2
         data-aos="fade-down"

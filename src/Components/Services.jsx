@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="flex w-full flex-col items-center justify-center gap-10 bg-gradient-to-r from-sky-600 to-green-500 px-1 py-20 text-white max-md:scroll-mt-16 md:gap-20"
+      className="flex w-full flex-col items-center justify-center gap-10 bg-gradient-to-b from-sky-600 to-green-400 px-1 py-20 text-white max-md:scroll-mt-16 md:gap-20"
     >
       <h2
         data-aos="fade-up"

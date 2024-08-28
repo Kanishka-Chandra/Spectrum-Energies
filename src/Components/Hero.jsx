@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="relative z-20 flex h-full items-center justify-center">
         <h1
           data-aos="fade-up"
-          className="max-w-2xl cursor-default select-none text-pretty p-4 text-center text-5xl font-medium text-white md:text-6xl md:font-semibold"
+          className="cursor-default select-none text-balance p-4 text-center text-5xl font-medium text-white md:text-7xl md:font-semibold"
         >
           Unlock the Strength of Collaboration
         </h1>

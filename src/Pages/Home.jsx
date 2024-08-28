@@ -1,6 +1,5 @@
 import React from "react";
 
-import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
 import AboutUs from "../Components/AboutUs";
 import Gallery from "../Components/Gallery";
@@ -14,7 +13,6 @@ import Services from "../Components/Services";
 const Home = () => {
   return (
     <>
-      <Navbar />
       <Hero />
       <AboutUs />
       <Gallery />
@@ -30,6 +28,7 @@ const Home = () => {
         }
         image={"/wind.webp"}
         imageAlt={"Wind Project Life Cycle"}
+        background={"bg-gradient-to-t from-sky-600 to-green-400"}
       />
       <ProjectCycle
         id={"solar"}
@@ -42,6 +41,7 @@ const Home = () => {
         }
         image={"/solar.webp"}
         imageAlt={"Solar Project Life Cycle"}
+        background={"bg-gradient-to-b from-sky-600 to-green-500"}
       />
       <WhyUs />
       <Reviews />

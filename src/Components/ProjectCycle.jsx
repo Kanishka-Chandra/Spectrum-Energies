@@ -7,11 +7,12 @@ const ProjectCycle = ({
   paragraph,
   image,
   imageAlt,
+  background,
 }) => {
   return (
     <section
       id={id}
-      className="flex w-full items-center justify-center bg-gradient-to-b from-sky-600 to-green-500 py-16 text-white max-md:scroll-mt-16"
+      className={`flex w-full items-center justify-center py-16 text-white max-md:scroll-mt-16 ${background}`}
     >
       <div className="flex w-full cursor-default flex-col gap-y-14 p-10">
         <div
@@ -33,7 +34,7 @@ const ProjectCycle = ({
           </div>
           <img
             data-aos="fade-left"
-            className="w-full object-cover md:col-span-2 md:h-[450px]"
+            className="w-full object-cover md:col-span-2"
             src={image}
             alt={imageAlt || ""}
           />
